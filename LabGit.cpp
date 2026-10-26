@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <sstream>
 
 using namespace std;
 int main(){
@@ -10,7 +12,7 @@ int main(){
 		string linea;
 		
 		while(getline(archivoEntrada, linea)){
-			archivosalida << linea;
+			archivoSalida << linea;
 		}
 		cout<<"Archivo copiado correctamente"<<endl;
 	}
